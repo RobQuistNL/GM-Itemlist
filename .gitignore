@@ -9,6 +9,9 @@ tmp/
 # The Windows 8 PFX files
 *.pfx
 
+# Compiled binaries
+bin/
+
 #############
 ## Windows detritus
 #############
