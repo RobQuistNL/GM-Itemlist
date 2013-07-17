@@ -105,7 +105,6 @@ if (!surface_exists(__surface)) {
     }
 
     __surface = surface_create(___i, ___i);
-    __surface_created = true;
 } else {
     surface_set_target(__surface);
     
