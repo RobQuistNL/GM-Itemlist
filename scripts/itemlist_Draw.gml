@@ -90,7 +90,7 @@ if (__autoselect) {
  * Now we'll handle the drawing part. Since we want it to be our own size i'm using surfaces.
  */ 
 
-if (false == __surface_created) {
+if (!surface_exists(__surface)) {
     
     //Surfaces must be square. Therefore calculate the bigger size of the scrollbar.
     if (__width > __height) {

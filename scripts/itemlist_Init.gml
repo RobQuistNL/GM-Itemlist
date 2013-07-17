@@ -12,8 +12,7 @@ __width = argument3;
 __height = argument4;
 
 //Other variables
-__surface = surface_create(2, 2); //I do this because of a stupid bug in GM.
-__surface_created = false;
+__surface = -1;
 __dragy = 0;
 __mouse_yprevious = 0;
 __sidebar_alpha = 0;
